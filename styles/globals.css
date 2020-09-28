@@ -10,7 +10,150 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
 * {
   box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+}
+
+#logo1 {
+  max-width: 60%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.info1 {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.info1 div {
+  flex: 1;
+}
+
+.orange-box {
+
+  background-color: #f59e42;
+  padding: 10px;
+  border: 2px solid brown;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.prices-header {
+  color: white;
+  padding: 10px;
+  background-color: brown;
+  text-align: center;
+  font-weight: bold;
+}
+
+.coin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prices-box {
+  border: 2px solid brown;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.prices-box h5 {
+  color: white;
+}
+
+.prices-box h3 {
+  color: grey;
+}
+
+.coin img {
+  max-width: 80%;
+}
+
+.info2 {
+  margin-top: 20px;
+}
+
+.description {
+  padding: 15px;
+  line-height: 30px;
+  border: 2px solid #f59e42;
+  text-align: center;
+}
+
+.menus {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.menus a {
+  width: 40%;
+  display: block;
+  text-align: center;
+  padding: 15px;
+  background-color: orangered;
+  margin: 5px;
+  border-radius: 50px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  color: white;
+  border: 2px solid white;
+  font-weight: bold;
+}
+
+.info3 {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.info3 div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.info3 h3, h4 {
+  margin: 15px 0;
+}
+
+.info3 h3 {
+  color: #f59e42;
+}
+
+.info4 {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info4 div {
+  display: flex;
+  width: 50%;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.stake-button {
+  background: #2980b9;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  margin-top: 10px;
 }
