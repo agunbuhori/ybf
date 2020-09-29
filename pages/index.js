@@ -40,9 +40,9 @@ export default function Home() {
 
       <header>
         <img src="/img/Fix.png" id="logo1"/>
-        <div className="logo2">
-          <h1>YEARN</h1>
-          <h3>BROSS STAKE</h3>
+        <div className="logo2 logofont">
+          <h1 style={{fontSize: '70px', textShadow: '1px -2px 2px rgba(0, 0,0, 0.5)'}}>YEARN</h1>
+          <h3 style={{fontSize: '33px', textShadow: '1px -2px 2px rgba(0, 0,0, 0.5)'}}>BROSS STAKE</h3>
         </div>
       </header>
 
@@ -107,7 +107,7 @@ export default function Home() {
 
       <section className="info3">
         <div className="participate">
-          <h1>YEARN BROSS FINANCE</h1>
+          <h1 className="logofont" style={{fontSize: '33px', textShadow: '1px -2px 2px rgba(0, 0,0, 0.5)'}}>YEARN BROSS FINANCE</h1>
           <strong>Stake to Participate in Mining and Earn YRMF!</strong>
           <p>CONNECT WALLETS</p>
           <img src="/img/connect.png" width="60%"/>

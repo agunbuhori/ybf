@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "logofont";
+  src: url('/fonts/logofont.ttf');
+}
+
 html,
 body {
   padding: 0;
@@ -156,4 +161,18 @@ header {
   padding: 10px;
   font-weight: bold;
   margin-top: 10px;
+}
+
+.logofont {
+  font-family: logofont;
+  color: #f59e42;;
+}
+
+@media screen and (max-width: 768px) {
+  .info1 {
+    flex-direction: column;
+  }
+  .info3 {
+    grid-template-columns: 1fr;
+  }
 }
